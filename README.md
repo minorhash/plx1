@@ -3,7 +3,8 @@
 according to the tutorial on [qiita](https://qiita.com/akirakudo/items/77c3cd49e2bf39da79dd).
 - install
 ```js
-npm i -S @babel/core babel-loader @babel/preset-env @babel/preset-react @babel/register
+npm i -S @babel/core babel-loader @babel/preset-env @babel/preset-react @babel/register \
+@babel/plugin-proposal-class-properties
 npm i -S react react-dom
 ```
 - web.config.js
